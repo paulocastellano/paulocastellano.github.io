@@ -1,0 +1,8 @@
+<footer>
+    <span>© 2019 Paulo Castellano</span>
+    {% if site.author.rss == true %}
+        <a href="{{ '/feed.xml' | prepend: site.baseurl }}" target="_blank">
+            <span class="icon-rss_feed"></span>
+        </a>
+    {% endif %}
+</footer>
