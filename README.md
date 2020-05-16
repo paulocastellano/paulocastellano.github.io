@@ -7,4 +7,11 @@
 * [jekyll](https://jekyllrb.com/)
 
 ## Development mode
-```jekyll serve or jekyll s```
+```
+bundle exec jekyll serve or jekyll s
+
+Local server will open on http://127.0.0.1:4000
+```
+
+## Build production
+```bundle exec jekyll build -d public```
